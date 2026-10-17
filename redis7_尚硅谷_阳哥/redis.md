@@ -69,9 +69,9 @@ make install
 
 **redis默认安装到`/usr/local/bin`，有如下几个命令**
 
-![1](images\1.png)
+![1](images/1.png)
 
-![2](images\2.png)
+![2](images/2.png)
 
 
 
@@ -203,7 +203,7 @@ exit
 
 
 
-![3](images\3.png)
+![3](images/3.png)
 
 
 
@@ -211,7 +211,7 @@ exit
 
 
 
-![4](images\4.png)
+![4](images/4.png)
 
 
 
@@ -227,7 +227,7 @@ exit
 
 
 
-![5](images\5.png)
+![5](images/5.png)
 
 
 
@@ -270,7 +270,7 @@ exit
 
 
 
-![6](images\6.png)
+![6](images/6.png)
 
 
 
@@ -322,7 +322,7 @@ exit
 
 
 
-![7](images\7.png)
+![7](images/7.png)
 
 
 
@@ -399,7 +399,7 @@ exit
 
 
 
-![8](images\8.png)
+![8](images/8.png)
 
 
 
@@ -415,7 +415,7 @@ KV模式不变，但V是一个键值对。Map<String ,Map<0bject,object>>
 
 
 
-![9](images\9.png)
+![9](images/9.png)
 
 
 
@@ -435,7 +435,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![10](images\10.png)
+![10](images/10.png)
 
 
 
@@ -459,7 +459,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![11](images\11.png)
+![11](images/11.png)
 
 
 
@@ -483,7 +483,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![12](images\12.png)
+![12](images/12.png)
 
 
 
@@ -491,7 +491,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![13](images\13.png)
+![13](images/13.png)
 
 
 
@@ -503,7 +503,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![14](images\14.png)
+![14](images/14.png)
 
 
 
@@ -515,7 +515,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 - 基数不是准确值，是近似值，有误差
 - 是一种数据集去重后的真实个数
 
-![15](images\15.png)
+![15](images/15.png)
 
 
 
@@ -523,7 +523,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![16](images\16.png)
+![16](images/16.png)
 
 
 
@@ -543,7 +543,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![17](images\17.png)
+![17](images/17.png)
 
 
 
@@ -551,7 +551,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![18](images\18.png)
+![18](images/18.png)
 
 
 
@@ -559,7 +559,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![18](images\19.png)
+![18](images/19.png)
 
 
 
@@ -567,7 +567,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![20](images\20.png)
+![20](images/20.png)
 
 
 
@@ -575,7 +575,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![21](images\21.png)
+![21](images/21.png)
 
 
 
@@ -583,7 +583,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![22](images\22.png)
+![22](images/22.png)
 
 
 
@@ -591,7 +591,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 
 
 
-![23](images\23.png)
+![23](images/23.png)
 
 
 
@@ -666,7 +666,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 - 5分钟10个key发生变化
 - 1分钟10000个可以发生变化
 
-![24](images\24.png)
+![24](images/24.png)
 
 
 
@@ -676,7 +676,7 @@ JD购物车早期设计，目前不再采用，当前小中厂可用
 - 5分钟100个key发生变化
 - 1分钟10000个可以发生变化
 
-![25](images\25.png)
+![25](images/25.png)
 
 
 
@@ -740,7 +740,7 @@ dir ./
 
 可以通过**lastsave**命令获取最后一次成功执行快照的时间
 
-![26](images\26.png)
+![26](images/26.png)
 
 
 
@@ -750,13 +750,13 @@ dir ./
 
 **优势**
 
-![27](images\27.png)
+![27](images/27.png)
 
 
 
 **劣势**
 
-![28](D:\MarkDown_File\redis7_尚硅谷_阳哥\images\28.png)
+![28](images/28.png)
 
 
 
@@ -802,7 +802,7 @@ redis.conf中设置
 save ""
 ```
 
-![29](images\29.png)
+![29](images/29.png)
 
 
 
@@ -834,25 +834,25 @@ save ""
 
 **stop-writes-on-bgsave-error**
 
-![30](images\30.png)
+![30](images/30.png)
 
 
 
 **rdbcompression**
 
-![31](images\31.png)
+![31](images/31.png)
 
 
 
 **rdbchecksum**
 
-![32](images\32.png)
+![32](images/32.png)
 
 
 
 **rdb-del-sync-files**
 
-![33](images\33.png)
+![33](images/33.png)
 
 
 
@@ -874,7 +874,7 @@ save ""
 
 
 
-![34](images\34.png)
+![34](images/34.png)
 
 
 
@@ -888,7 +888,7 @@ save ""
 
 
 
-![35](images\35.png)
+![35](images/35.png)
 
 
 
@@ -925,7 +925,7 @@ appendfsync everysec
 **redis6**
 
 - AOF保存文件的位置和RDB保存文件的位置一样,都是通过redis.conf配置文件的dir配置
-- ![36](images\36.png)
+- ![36](images/36.png)
 
 **redis7**
 
@@ -955,7 +955,7 @@ appendfilename "appendonly.aof"
   - base基本文件
   - incr增量文件
   - manifest清单文件
-- ![37](images\37.png)
+- ![37](images/37.png)
 
 
 
@@ -1007,7 +1007,7 @@ redis-check-aof --fix /root/appendonlydir/appendonly.aof.1.incr.aof
 
 
 
-![38](images\38.png)
+![38](images/38.png)
 
 
 
@@ -1019,7 +1019,7 @@ redis-check-aof --fix /root/appendonlydir/appendonly.aof.1.incr.aof
 
 
 
-![39](images\39.png)
+![39](images/39.png)
 
 
 
@@ -1081,7 +1081,7 @@ aof-use-rdb-preamble no
 
 **文件名变化**
 
-![40](images\40.png)
+![40](images/40.png)
 
 
 
@@ -1089,7 +1089,7 @@ aof-use-rdb-preamble no
 
 
 
-![41](images\41.png)
+![41](images/41.png)
 
 
 
@@ -1101,7 +1101,7 @@ aof-use-rdb-preamble no
 
 
 
-![42](D:\MarkDown_File\redis7_尚硅谷_阳哥\images\42.png)
+![42](images/42.png)
 
 
 
@@ -1111,7 +1111,7 @@ aof-use-rdb-preamble no
 
 **RDB + AOF混合使用**
 
-![43](images\43.png)
+![43](images/43.png)
 
 
 
@@ -1171,7 +1171,7 @@ aof-use-rdb-preamble no
 
 
 
-![44](images\44.png)
+![44](images/44.png)
 
 
 
@@ -1179,7 +1179,7 @@ aof-use-rdb-preamble no
 
 
 
-![45](images\45.png)
+![45](images/45.png)
 
 
 
@@ -1194,7 +1194,7 @@ aof-use-rdb-preamble no
 
 **开启事务和提交事务之间命令没有错误**
 
-![46](images\46.png)
+![46](images/46.png)
 
 
 
@@ -1207,7 +1207,7 @@ aof-use-rdb-preamble no
 
 
 
-![47](images\47.png)
+![47](images/47.png)
 
 
 
@@ -1222,7 +1222,7 @@ aof-use-rdb-preamble no
 
 **事务之间的命令编译就报错，提交事务都不执行**
 
-![48](images\48.png)
+![48](images/48.png)
 
 
 
@@ -1239,7 +1239,7 @@ aof-use-rdb-preamble no
 
 - Redis不提供事务回滚的功能，开发者必须在事务执行出错后，自行恢复数据库状态
 
-![49](images\49.png)
+![49](images/49.png)
 
 
 
@@ -1253,19 +1253,19 @@ Redis使用Watch来提供乐观锁定，类似于CAS( Check-and-Set)
 
 **初始化k1和balance两个key,先监控再开启multi,保证两key变动在同一个事务内**
 
-![50](images\50.png)
+![50](images/50.png)
 
 
 
 **另一个线程在事务期间修改了**
 
-![51](images\51.png)
+![51](images/51.png)
 
 
 
 **unwatch进行取消**
 
-![52](images\52.png)
+![52](images/52.png)
 
 
 
@@ -1298,7 +1298,7 @@ Redis使用Watch来提供乐观锁定，类似于CAS( Check-and-Set)
 
 **RTT介绍**
 
-![53](images\53.png)
+![53](images/53.png)
 
 
 
@@ -1308,7 +1308,7 @@ Redis使用Watch来提供乐观锁定，类似于CAS( Check-and-Set)
 
 **解决思路，引出管道这个概念**
 
-![54](images\54.png)
+![54](images/54.png)
 
 
 
@@ -1328,7 +1328,7 @@ Pipeline是为了解决RTT往返回时，仅仅是将命令打包一次性发送
 
 
 
-![55](images\55.png)
+![55](images/55.png)
 
 
 
@@ -1336,7 +1336,7 @@ Pipeline是为了解决RTT往返回时，仅仅是将命令打包一次性发送
 
 
 
-![56](images\56.png)
+![56](images/56.png)
 
 
 
@@ -1386,7 +1386,7 @@ Pipeline是为了解决RTT往返回时，仅仅是将命令打包一次性发送
 
 
 
-![57](images\57.png)
+![57](images/57.png)
 
 
 
@@ -1580,7 +1580,7 @@ info replication
 
 
 
-![58](images\58.png)
+![58](images/58.png)
 
 
 
@@ -1588,7 +1588,7 @@ info replication
 
 
 
-- **复制延时，信号衰弱**![59](images\59.png)
+- **复制延时，信号衰弱**![59](images/59.png)
 
 - master挂了之后，不会重现选举新的master，需要人工干预
 
@@ -1604,7 +1604,7 @@ info replication
 
 吹哨人巡查监控后台master主机是否故障，如果故障了根据**投票数**自动将某一个从库转换为新主库，继续对外服务
 
-![60](images\60.png)
+![60](images/60.png)
 
 
 
@@ -1630,7 +1630,7 @@ info replication
 - 3个哨兵：自动监控和维护集群，不存放数据，只是吹哨人
 - 1主2从：用于数据读取和存放
 
-![61](images\61.png)
+![61](images/61.png)
 
 
 
@@ -1638,11 +1638,11 @@ info replication
 
 
 
-![62](images\62.png)
+![62](images/62.png)
 
-![63](images\63.png)
+![63](images/63.png)
 
-![64](images\64.png)
+![64](images/64.png)
 
 
 
@@ -1714,7 +1714,7 @@ sentinel auth-pass mymaster 123456
 masterauth 123456
 ```
 
-![65](images\65.png)
+![65](images/65.png)
 
 
 
@@ -1796,7 +1796,7 @@ redis-sentinel /usr/local/redis-7.0.0/sentinel26381.conf
     sentinel down-after-milliseconds mymaster 30000
     ```
 
-  ![66](images\66.png)
+  ![66](images/66.png)
 
 
 
@@ -1806,7 +1806,7 @@ redis-sentinel /usr/local/redis-7.0.0/sentinel26381.conf
 
 ODOWN需要一定数量的sentinel, 多个哨兵达成一致意见才能认为一个master客观上已经宕掉
 
-![67](images\67.png)
+![67](images/67.png)
 
 
 
@@ -1823,7 +1823,7 @@ ODOWN需要一定数量的sentinel, 多个哨兵达成一致意见才能认为�
 
 - Raft算法
 
-![68](images\68.png)
+![68](images/68.png)
 
 
 
@@ -1839,11 +1839,11 @@ ODOWN需要一定数量的sentinel, 多个哨兵达成一致意见才能认为�
 
 
 
-![69](images\69.png)
+![69](images/69.png)
 
 - 选Master流程如下
 
-![70](images\70.png)
+![70](images/70.png)
 
 - redis.conf优先级设置（数字越小，优先级越大）
 
@@ -1857,7 +1857,7 @@ replica-priority 100
 
 
 
-![71](images\71.png)
+![71](images/71.png)
 
 
 
@@ -1865,7 +1865,7 @@ replica-priority 100
 
 
 
-![72](images\72.png)
+![72](images/72.png)
 
 
 
@@ -1875,7 +1875,7 @@ replica-priority 100
 
 上述的failover操作均由sentinel自己独自完成，完全无需人工干预。
 
-![73](images\73.png)
+![73](images/73.png)
 
 
 
@@ -1883,7 +1883,7 @@ replica-priority 100
 
 
 
-![74](images\74.png)
+![74](images/74.png)
 
 
 
@@ -1899,7 +1899,7 @@ replica-priority 100
 
 - **由于数据量过大**，单个Master复制集难以承担，因此需要对多个复制集进行集群，形成水平扩展，每个复制集只负责存储整个数据集的一部分，这就是Redis的集群，其作用是提供在多个Redis节点间共享数据的程序集。
 
-![75](images\75.png)
+![75](images/75.png)
 
 
 
@@ -1914,7 +1914,7 @@ replica-priority 100
 
 
 
-![76](images\76.png)
+![76](images/76.png)
 
 
 
@@ -1928,11 +1928,11 @@ replica-priority 100
 
 **官网出处**
 
-![77](images\77.png)
+![77](images/77.png)
 
 **翻译说明**
 
-![78](images\78.png)
+![78](images/78.png)
 
 
 
@@ -1940,7 +1940,7 @@ replica-priority 100
 
 
 
-![79](images\79.png)
+![79](images/79.png)
 
 
 
@@ -1948,7 +1948,7 @@ replica-priority 100
 
 
 
-![80](images\80.png)
+![80](images/80.png)
 
 
 
@@ -1956,7 +1956,7 @@ replica-priority 100
 
 
 
-![81](images\81.png)
+![81](images/81.png)
 
 
 
@@ -1968,7 +1968,7 @@ replica-priority 100
 
 
 
-![82](images\82.png)
+![82](images/82.png)
 
 
 
@@ -2001,7 +2001,7 @@ replica-priority 100
 
 
 
-![83](images\83.png)
+![83](images/83.png)
 
 
 
@@ -2009,7 +2009,7 @@ replica-priority 100
 
 
 
-![84](images\84.png)
+![84](images/84.png)
 
 
 
@@ -2017,7 +2017,7 @@ replica-priority 100
 
 
 
-![86](images\86.png)
+![86](images/86.png)
 
 
 
@@ -2027,13 +2027,13 @@ replica-priority 100
 
 **容错性**
 
-![87](images\87.png)
+![87](images/87.png)
 
 
 
 **扩展性**
 
-![88](images\88.png)
+![88](images/88.png)
 
 
 
@@ -2043,7 +2043,7 @@ replica-priority 100
 
 **数据倾斜问题**
 
-![89](images\89.png)
+![89](images/89.png)
 
 
 
@@ -2051,7 +2051,7 @@ replica-priority 100
 
 
 
-![90](images\90.png)
+![90](images/90.png)
 
 
 
@@ -2063,7 +2063,7 @@ replica-priority 100
 
 
 
-![91](images\91.png)
+![91](images/91.png)
 
 
 
@@ -2071,7 +2071,7 @@ replica-priority 100
 
 
 
-![92](images\92.png)
+![92](images/92.png)
 
 
 
@@ -2081,7 +2081,7 @@ replica-priority 100
 
 **为什么redis集群的最大槽数是16384？**
 
-![93](images\93.png)
+![93](images/93.png)
 
 
 
@@ -2089,19 +2089,19 @@ replica-priority 100
 
 - 看不懂
 
-![94](images\94.png)
+![94](images/94.png)
 
 
 
 **说明2：阳哥解释**
 
-![95](images\95.png)
+![95](images/95.png)
 
 
 
 **计算结论**
 
-![96](images\96.png)
+![96](images/96.png)
 
 
 
@@ -2302,7 +2302,7 @@ redis-cli -a 123456 --cluster create --cluster-replicas 1 192.168.188.128:6381 1
 - 看到如下结果代表构建成功
 
 
-![97](images\97.png)
+![97](images/97.png)
 
 
 
@@ -2336,13 +2336,13 @@ cluster nodes
 
 **6381新增两个key，看看效果**
 
-![98](images\98.png)
+![98](images/98.png)
 
 
 
 **为什么报错**
 
-![99](images\99.png)
+![99](images/99.png)
 
 
 
@@ -2354,7 +2354,7 @@ cluster nodes
 redis-cli -a 123456 -p 6381 -c
 ```
 
-![100](images\100.png)
+![100](images/100.png)
 
 
 
@@ -2384,19 +2384,19 @@ cluster keyslot 键名称
 
 **6381是主，6384是从**
 
-![101](images\101.png)
+![101](images/101.png)
 
 
 
 **6381宕机，6384成为master**
 
-![102](images\102.png)
+![102](images/102.png)
 
 
 
 **6381重新上线，不会上线，成为6384的slave**
 
-![102](D:\MarkDown_File\redis7_尚硅谷_阳哥\images\103.png)
+![102](images/103.png)
 
 
 
@@ -2423,7 +2423,7 @@ cluster failover
 
 - 6381重回master,6384重回slave
 
-![104](images\104.png)
+![104](images/104.png)
 
 
 
@@ -2505,7 +2505,7 @@ redis-server /myredis/cluster/redisCluster6387.conf
 redis-cli -a 123456  --cluster add-node 192.168.188.131:6387 192.168.188.128:6381
 ```
 
-![105](images\105.png)
+![105](images/105.png)
 
 
 
@@ -2519,7 +2519,7 @@ redis-cli -a 123456  --cluster add-node 192.168.188.131:6387 192.168.188.128:638
 redis-cli -a 123456 --cluster check 192.168.188.131:6387
 ```
 
-![106](images\106.png)
+![106](images/106.png)
 
 
 
@@ -2533,7 +2533,7 @@ redis-cli -a 123456 --cluster check 192.168.188.131:6387
 redis-cli -a 123456 --cluster reshard 192.168.188.131:6387
 ```
 
-![107](images\107.png)
+![107](images/107.png)
 
 
 
@@ -2543,13 +2543,13 @@ redis-cli -a 123456 --cluster reshard 192.168.188.131:6387
 redis-cli -a 123456 --cluster check 192.168.188.131:6387
 ```
 
-![108](images\108.png)
+![108](images/108.png)
 
 
 
 **槽号分派说明**
 
-![109](images\109.png)
+![109](images/109.png)
 
 
 
@@ -2563,7 +2563,7 @@ redis-cli -a 123456 --cluster check 192.168.188.131:6387
 redis-cli -a 123456 --cluster add-node 192.168.188.131:6388 192.168.188.131:6387 --cluster-slave --cluster-master-id 01ee172617a98b2f6a7e5f28413a918c971d0da9
 ```
 
-![110](images\110.png)
+![110](images/110.png)
 
 
 
@@ -2575,7 +2575,7 @@ redis-cli -a 123456 --cluster add-node 192.168.188.131:6388 192.168.188.131:6387
 redis-cli -a 123456 --cluster check 192.168.188.131:6387
 ```
 
-![111](images\111.png)
+![111](images/111.png)
 
 
 
@@ -2597,7 +2597,7 @@ redis-cli -a 123456 --cluster check 192.168.188.131:6387
 redis-cli -a 123456 --cluster check 192.168.188.131:6388
 ```
 
-![112](images\112.png)
+![112](images/112.png)
 
 
 
@@ -2611,7 +2611,7 @@ redis-cli -a 123456 --cluster check 192.168.188.131:6388
 redis-cli -a 123456 --cluster del-node 192.168.188.131:6388 d9da2d99c152ef9925def888c27c1c9aa034c12a
 ```
 
-![113](images\113.png)
+![113](images/113.png)
 
 
 
@@ -2621,7 +2621,7 @@ redis-cli -a 123456 --cluster del-node 192.168.188.131:6388 d9da2d99c152ef9925de
 redis-cli -a 123456 --cluster check 192.168.188.128:6381
 ```
 
-![114](images\114.png)
+![114](images/114.png)
 
 
 
@@ -2637,7 +2637,7 @@ redis-cli -a 123456 --cluster check 192.168.188.128:6381
 redis-cli -a 123456 --cluster reshard 192.168.188.128:6381
 ```
 
-![115](images\115.png)
+![115](images/115.png)
 
 
 
@@ -2649,7 +2649,7 @@ redis-cli -a 123456 --cluster reshard 192.168.188.128:6381
 redis-cli -a 123456 --cluster check 192.168.188.128:6381
 ```
 
-![116](images\116.png)
+![116](images/116.png)
 
 
 
@@ -2679,7 +2679,7 @@ redis-cli -a 123456 --cluster del-node 192.168.188.131:6387 01ee172617a98b2f6a7e
 redis-cli -a 123456 --cluster check 192.168.188.128:6381
 ```
 
-![117](images\117.png)
+![117](images/117.png)
 
 
 
@@ -2689,14 +2689,14 @@ redis-cli -a 123456 --cluster check 192.168.188.128:6381
 
 - 不在同一个slot槽位 下的多键操作支持不好，通识占位符登场
 
-![118](images\118.png)
+![118](images/118.png)
 
 
 
 - Redis集群有16384个哈希槽，每个key通过CRC16校验后对16384取模来决定放 置哪个槽。
   集群的每个节负责一部分hash槽
 
-![119](images\119.png)
+![119](images/119.png)
 
 
 
@@ -2707,7 +2707,7 @@ redis-cli -a 123456 --cluster check 192.168.188.128:6381
 - cluster-require-full-coverage
   - 集群是否完整才能对外提供服务
 
-![120](images\120.png)
+![120](images/120.png)
 
 
 
@@ -2807,7 +2807,7 @@ public class JedisTest {
 
 
 
-![121](images\121.png)
+![121](images/121.png)
 
 
 
@@ -3178,9 +3178,9 @@ localhost:7777/order/add
 
 
 
-![122](images\122.png)
+![122](images/122.png)
 
-![123](images\123.png)
+![123](images/123.png)
 
 
 
@@ -3190,9 +3190,9 @@ localhost:7777/order/add
 
 - 使用了默认的`JdkSerializationRedisSerializer`序列器
 
-![124](images\124.png)
+![124](images/124.png)
 
-![125](images\125.png)
+![125](images/125.png)
 
 
 
@@ -3246,9 +3246,9 @@ redis-cli -a 123456 --raw
 
 
 
-![126](images\126.png)
+![126](images/126.png)
 
-![127](images\127.png)
+![127](images/127.png)
 
 
 
@@ -3371,7 +3371,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 SpringBoot客户端没有动态感知到RedisCluster的最新集群信息
 
-![128](images\128.png)
+![128](images/128.png)
 
 
 
@@ -3389,7 +3389,7 @@ SpringBoot 2.X版本，Redis默认的连接池采用Lettuce，当Redis集群节�
 
 ###### 排除lettuce采用jedis (不推荐)
 
-![129](images\129.png)
+![129](images/129.png)
 
 
 
@@ -3481,7 +3481,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![130](images\130.png)
+![130](images/130.png)
 
 
 
@@ -3489,7 +3489,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![131](images\131.png)
+![131](images/131.png)
 
 
 
@@ -3497,7 +3497,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![132](images\132.png)
+![132](images/132.png)
 
 
 
@@ -3505,7 +3505,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![133](images\133.png)
+![133](images/133.png)
 
 
 
@@ -3517,7 +3517,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![134](images\134.png)
+![134](images/134.png)
 
 
 
@@ -3534,7 +3534,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 **案例**
 
-![135](images\135.png)
+![135](images/135.png)
 
 
 
@@ -3558,7 +3558,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![136](images\136.png)
+![136](images/136.png)
 
 
 
@@ -3566,7 +3566,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![137](images\137.png)
+![137](images/137.png)
 
 
 
@@ -3598,7 +3598,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![138](images\138.png)
+![138](images/138.png)
 
 
 
@@ -3612,7 +3612,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 **概念**
 
-![140](images\140.png)
+![140](images/140.png)
 
 
 
@@ -3624,7 +3624,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![141](images\141.png)
+![141](images/141.png)
 
 
 
@@ -3632,7 +3632,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 
 
-![142](images\142.png)
+![142](images/142.png)
 
 
 
@@ -3642,7 +3642,7 @@ spring.redis.cluster.nodes=192.168.188.128:6381,192.168.188.128:6382,192.168.188
 
 - 只使用一个服务端进程可以同时处理多个套接字描述符连接
 
-![143](images\143.png)
+![143](images/143.png)
 
 
 
@@ -3666,7 +3666,7 @@ IO多路复用+epoll函数使用，才是redis为什么这么快的直接原因�
 
 
 
-![144](images\144.png)
+![144](images/144.png)
 
 
 
@@ -3674,7 +3674,7 @@ IO多路复用+epoll函数使用，才是redis为什么这么快的直接原因�
 
 
 
-![145](images\145.png)
+![145](images/145.png)
 
 
 
@@ -3688,7 +3688,7 @@ IO多路复用+epoll函数使用，才是redis为什么这么快的直接原因�
 
 **如果你在实际应用中，发现Redis实例的CPU开销不大但吞吐量却没有提升,可以考虑使用Redis7的多线程机制，加速网络处理，进而提升实例的吞吐量**
 
-![146](images\146.png)
+![146](images/146.png)
 
 
 
@@ -3696,7 +3696,7 @@ IO多路复用+epoll函数使用，才是redis为什么这么快的直接原因�
 
 
 
-![147](images\147.png)
+![147](images/147.png)
 
 
 
@@ -3787,9 +3787,9 @@ SCAN:用于迭代数据库中的数据库键
 
 
 
-![148](images\148.png)
+![148](images/148.png)
 
-![149](images\149.png)
+![149](images/149.png)
 
 
 
@@ -3797,7 +3797,7 @@ SCAN:用于迭代数据库中的数据库键
 
 
 
-![150](images\150.png)
+![150](images/150.png)
 
 
 
@@ -3805,7 +3805,7 @@ SCAN:用于迭代数据库中的数据库键
 
 
 
-![151](images\151.png)
+![151](images/151.png)
 
 
 
@@ -3819,7 +3819,7 @@ SCAN:用于迭代数据库中的数据库键
 
 **《阿里云Redis开发规范》**
 
-![152](images\152.png)
+![152](images/152.png)
 
 
 
@@ -3832,7 +3832,7 @@ SCAN:用于迭代数据库中的数据库键
 
 **list、hash、set、zset**
 
-- 最多可以![153](images\153.png)
+- 最多可以![153](images/153.png)
 
 - 个数**超过5000**就是bigkey
 
@@ -3894,7 +3894,7 @@ redis-cli –-bigkeys -i 0.1
 
 **结果展示**
 
-![154](images\154.png)
+![154](images/154.png)
 
 
 
@@ -3914,7 +3914,7 @@ https://redis.com.cn/commands/memory-usage.html
 
 **介绍**
 
-![155](images\155.png)
+![155](images/155.png)
 
 
 
@@ -3930,7 +3930,7 @@ redis 127.0.0.1:6379> MEMORY USAGE key [SAMPLES count]
 
 - 空字符串：实际数据为空，但是存储时仍然耗费了一些内存，这些内存用于 Redis 服务器维护内部数据结构。随着 key 和 value 的增大，内存使用量和 key 大小基本成线性关系。
 
-![156](images\156.png)
+![156](images/156.png)
 
 
 
@@ -3942,7 +3942,7 @@ redis 127.0.0.1:6379> MEMORY USAGE key [SAMPLES count]
 
 
 
-![157](images\157.png)
+![157](images/157.png)
 
 
 
@@ -3966,13 +3966,13 @@ redis 127.0.0.1:6379> MEMORY USAGE key [SAMPLES count]
 
 **命令**
 
-![158](images\158.png)
+![158](images/158.png)
 
 
 
 **阿里手册：Java代码删除**
 
-![159](images\159.png)
+![159](images/159.png)
 
 
 
@@ -3987,13 +3987,13 @@ redis 127.0.0.1:6379> MEMORY USAGE key [SAMPLES count]
 
 **命令**
 
-![160](images\160.png)
+![160](images/160.png)
 
 
 
 **阿里手册：Java代码删除**
 
-![161](images\161.png)
+![161](images/161.png)
 
 
 
@@ -4008,13 +4008,13 @@ redis 127.0.0.1:6379> MEMORY USAGE key [SAMPLES count]
 
 **命令**
 
-![162](images\162.png)
+![162](images/162.png)
 
 
 
 **阿里手册：Java代码删除**
 
-![163](images\163.png)
+![163](images/163.png)
 
 
 
@@ -4029,13 +4029,13 @@ redis 127.0.0.1:6379> MEMORY USAGE key [SAMPLES count]
 
 **命令**
 
-![164](images\164.png)
+![164](images/164.png)
 
 
 
 **阿里手册：Java代码删除**
 
-![165](images\165.png)
+![165](images/165.png)
 
 
 
@@ -4054,7 +4054,7 @@ redis 127.0.0.1:6379> MEMORY USAGE key [SAMPLES count]
 
 **阻塞和非阻塞删除命令**
 
-![166](images\166.png)
+![166](images/166.png)
 
 
 
@@ -4078,7 +4078,7 @@ lazyfree-lazy-user-del yes
 
 
 
-![167](images\167.png)
+![167](images/167.png)
 
 - 上面业务逻辑你用java代码如何写？
 - 你只要用缓存，就可能会涉及到redis缓存与数据库双存储双写,你只要是双写，就一定会有数据一致性的问题,
@@ -4103,7 +4103,7 @@ lazyfree-lazy-user-del yes
 
 
 
-![168](images\168.png)
+![168](images/168.png)
 
 
 
@@ -4115,7 +4115,7 @@ lazyfree-lazy-user-del yes
 
 
 
-![169](images\169.png)
+![169](images/169.png)
 
 
 
@@ -4125,7 +4125,7 @@ lazyfree-lazy-user-del yes
 
 - 尽量避免redis缓存大量同一时间失效，造成打爆mysql的情况
 
-![170](images\170.png)
+![170](images/170.png)
 
 
 
@@ -4244,7 +4244,7 @@ public class UserService {
 
 - 达到最终一致性
 
-![171](images\171.png)
+![171](images/171.png)
 
 
 
@@ -4269,7 +4269,7 @@ public class UserService {
 
 
 
-![172](images\172.png)
+![172](images/172.png)
 
 
 
@@ -4277,7 +4277,7 @@ public class UserService {
 
 
 
-![173](images\173.png)
+![173](images/173.png)
 
 
 
@@ -4293,7 +4293,7 @@ public class UserService {
 
 
 
-![174](images\174.png)
+![174](images/174.png)
 
 
 
@@ -4307,17 +4307,17 @@ public class UserService {
 
 **异常问题分析步骤**
 
-![175](images\175.png)
+![175](images/175.png)
 
-![176](images\176.png)
+![176](images/176.png)
 
-![177](images\177.png)
+![177](images/177.png)
 
 
 
 **上面分析步骤梳理**
 
-![178](images\178.png)
+![178](images/178.png)
 
 
 
@@ -4329,7 +4329,7 @@ public class UserService {
 
 
 
-![179](images\179.png)
+![179](images/179.png)
 
 
 
@@ -4339,7 +4339,7 @@ public class UserService {
 
 **这个删除该休眠多久？**
 
-![180](images\180.png)
+![180](images/180.png)
 
 
 
@@ -4347,7 +4347,7 @@ public class UserService {
 
 - 采用异步编程
 
-![181](images\181.png)
+![181](images/181.png)
 
 
 
@@ -4363,7 +4363,7 @@ public class UserService {
 
 
 
-![182](images\182.png)
+![182](images/182.png)
 
 
 
@@ -4371,7 +4371,7 @@ public class UserService {
 
 
 
-![183](images\183.png)
+![183](images/183.png)
 
 
 
@@ -4379,7 +4379,7 @@ public class UserService {
 
 
 
-![184](images\184.png)
+![184](images/184.png)
 
 
 
@@ -4387,7 +4387,7 @@ public class UserService {
 
 
 
-![185](images\185.png)
+![185](images/185.png)
 
 
 
@@ -4399,7 +4399,7 @@ public class UserService {
 
 
 
-![186](images\186.png)
+![186](images/186.png)
 
 
 
@@ -4407,7 +4407,7 @@ public class UserService {
 
 
 
-![187](images\187.png)
+![187](images/187.png)
 
 
 
@@ -4419,7 +4419,7 @@ public class UserService {
 
 
 
-![188](images\188.png)
+![188](images/188.png)
 
 
 
@@ -4475,7 +4475,7 @@ https://github.com/alibaba/canal/releases
 
 
 
-![189](images\189.png)
+![189](images/189.png)
 
 
 
@@ -4483,7 +4483,7 @@ https://github.com/alibaba/canal/releases
 
 
 
-![190](images\190.png)
+![190](images/190.png)
 
 
 
@@ -4554,7 +4554,7 @@ binlog-format=ROW #选择 ROW 模式
 server_id=1    #配置MySQL replaction需要定义，不要和canal的 slaveId重复
 ```
 
-![191](images\191.png)
+![191](images/191.png)
 
 
 
@@ -4578,7 +4578,7 @@ show variables like'log_bin';
 
 - 可以看到为开启状态
 
-![192](images\192.png)
+![192](images/192.png)
 
 
 
@@ -4676,7 +4676,7 @@ canal.instance.dbPassword=canal
 cat /usr/local/canal/logs/canal/canal.log
 ```
 
-![193](images\193.png)
+![193](images/193.png)
 
 
 
@@ -4711,7 +4711,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
 
 
-![194](images\194.png)
+![194](images/194.png)
 
 
 
@@ -4739,7 +4739,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
 - 复习命令
 
-![195](images\195.png)
+![195](images/195.png)
 
 
 
@@ -4828,7 +4828,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
 
 
-![196](images\196.png)
+![196](images/196.png)
 
 
 
@@ -4844,7 +4844,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
 **去重复统计功能的基数估计算法就是HyperLogLog**
 
-![197](images\197.png)
+![197](images/197.png)
 
 
 
@@ -4857,7 +4857,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
 **基本命令**
 
-![198](images\198.png)
+![198](images/198.png)
 
 
 
@@ -4879,7 +4879,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
 **bitmap**
 
-![199](images\199.png)
+![199](images/199.png)
 
 
 
@@ -4891,7 +4891,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
 **解决办法：概率算法**
 
-![200](images\200.png)
+![200](images/200.png)
 
 
 
@@ -4912,7 +4912,7 @@ cat /usr/local/canal/logs/canal/canal.log
 
   - Redis之父安特雷兹回答
 
-    ![201](images\201.png)
+    ![201](images/201.png)
 
 
 
@@ -4938,11 +4938,11 @@ cat /usr/local/canal/logs/canal/canal.log
 
 - 用redis的hash结构存储
 
-  ![202](images\202.png)
+  ![202](images/202.png)
 
 - HyperLogLog
 
-  ![203](images\203.png)
+  ![203](images/203.png)
 
 
 
@@ -5013,7 +5013,7 @@ public class HyperLogLogController {
 
 
 
-![204](images\204.png)
+![204](images/204.png)
 
 
 
@@ -5029,7 +5029,7 @@ public class HyperLogLogController {
 GEOADD city 116.403963 39.915119 "天安门" 116.403414 39.924091 "故宫" 116.024067 40.362639 "长城"
 ```
 
-![205](images\205.png)
+![205](images/205.png)
 
 
 
@@ -5041,7 +5041,7 @@ GEOADD city 116.403963 39.915119 "天安门" 116.403414 39.924091 "故宫" 116.0
 GEOPOS city 天安门
 ```
 
-![206](images\206.png)
+![206](images/206.png)
 
 
 
@@ -5053,9 +5053,9 @@ GEOPOS city 天安门
 GEOHASH city 天安门
 ```
 
-![207](images\207.png)
+![207](images/207.png)
 
-![208](images\208.png)
+![208](images/208.png)
 
 
 
@@ -5067,7 +5067,7 @@ GEOHASH city 天安门
 GEODIST city 天安门 故宫 m
 ```
 
-![209](images\209.png)
+![209](images/209.png)
 
 
 
@@ -5081,7 +5081,7 @@ GEORADIUS city 116.418017 39.914402 10 km withdist withcoord count 10 withhash d
 GEORADIUS city 116.418017 39.914402 10 km withdist withcoord count 10 desc
 ```
 
-![210](images\210.png)
+![210](images/210.png)
 
 
 
@@ -5093,7 +5093,7 @@ GEORADIUS city 116.418017 39.914402 10 km withdist withcoord count 10 desc
 GEORADIUSBYMEMBER city 天安门 10 km withdist withcoord count 10 withhash
 ```
 
-![211](images\211.png)
+![211](images/211.png)
 
 
 
@@ -5305,7 +5305,7 @@ public class GeoService
 
 - 由0和1状态表现的二进制位的bit数组
 
-![212](images\212.png)
+![212](images/212.png)
 
 
 
@@ -5326,7 +5326,7 @@ public class GeoService
 
 **需求说明**
 
-![213](images\213.png)
+![213](images/213.png)
 
 
 
@@ -5334,17 +5334,17 @@ public class GeoService
 
 - 建表SQL
 
-  ![214](images\214.png)
+  ![214](images/214.png)
 
 - 困难和解决思路
 
-  ![215](images\215.png)
+  ![215](images/215.png)
 
 
 
 **大厂方法，基于Redis的Bitmaps实现签到日历**
 
-![216](images\216.png)
+![216](images/216.png)
 
 
 
@@ -5352,7 +5352,7 @@ public class GeoService
 
 
 
-![217](images\217.png)
+![217](images/217.png)
 
 
 
@@ -5374,7 +5374,7 @@ public class GeoService
 
 - 现有50亿个电话号码，现有10万个电话号码,如何要快速准确的判断这些电话号码是否已经存在?
 
-  ![218](images\218.png)
+  ![218](images/218.png)
 
 - 判断是否存在，布隆过滤器了解过吗?
 - 安全连接网址，全球数10亿的网址判断
@@ -5393,7 +5393,7 @@ public class GeoService
 
 - 设计思想：本质就是判断具体数据是否存在于一个大的集合中
 
-  ![219](images\219.png)
+  ![219](images/219.png)
 
 
 
@@ -5407,7 +5407,7 @@ public class GeoService
 
 
 
-![221](images\221.png)
+![221](images/221.png)
 
 
 
@@ -5423,7 +5423,7 @@ public class GeoService
 
 
 
-![222](images\222.png)
+![222](images/222.png)
 
 
 
@@ -5431,7 +5431,7 @@ public class GeoService
 
 
 
-![223](images\223.png)
+![223](images/223.png)
 
 
 
@@ -5439,13 +5439,13 @@ public class GeoService
 
 
 
-![224](images\224.png)
+![224](images/224.png)
 
 
 
 **哈希函数**
 
-![225](images\225.png)
+![225](images/225.png)
 
 
 
@@ -5457,7 +5457,7 @@ public class GeoService
 
 
 
-![226](images\226.png)
+![226](images/226.png)
 
 
 
@@ -5465,7 +5465,7 @@ public class GeoService
 
 
 
-![227](images\227.png)
+![227](images/227.png)
 
 
 
@@ -5473,7 +5473,7 @@ public class GeoService
 
 
 
-![228](images\228.png)
+![228](images/228.png)
 
 
 
@@ -5481,7 +5481,7 @@ public class GeoService
 
 
 
-![229](images\229.png)
+![229](images/229.png)
 
 
 
@@ -5489,7 +5489,7 @@ public class GeoService
 
 
 
-![230](images\230.png)
+![230](images/230.png)
 
 
 
@@ -5499,13 +5499,13 @@ public class GeoService
 
 **解决缓存穿透的问题，和redis结合bitmap使用**
 
-![231](images\231.png)
+![231](images/231.png)
 
 
 
 **黑名单校验，识别垃圾邮件**
 
-![232](images\232.png)
+![232](images/232.png)
 
 
 
@@ -5521,7 +5521,7 @@ public class GeoService
 
 
 
-![233](images\233.png)
+![233](images/233.png)
 
 
 
@@ -5529,7 +5529,7 @@ public class GeoService
 
 
 
-![234](images\234.png)
+![234](images/234.png)
 
 
 
@@ -5787,11 +5787,11 @@ CREATE TABLE `t_customer` (
 
 - 双击插件mybatis-generator:gererate，一键生成生成entity+mapper接口+xml实现SQL
 
-![244](images\244.png)
+![244](images/244.png)
 
 - 生成的结果
 
-![245](images\245.png)
+![245](images/245.png)
 
 
 
@@ -6463,7 +6463,7 @@ public class CheckUtils {
 
 
 
-![247](images\247.png)
+![247](images/247.png)
 
 
 
@@ -6471,7 +6471,7 @@ public class CheckUtils {
 
 
 
-![246](images\246.png)
+![246](images/246.png)
 
 
 
@@ -6525,7 +6525,7 @@ public class CheckUtils {
 
 
 
-![248](images\248.png)
+![248](images/248.png)
 
 
 
@@ -6549,9 +6549,9 @@ public class CheckUtils {
 
 
 
-![249](images\249.png)
+![249](images/249.png)
 
-![250](images\250.png)
+![250](images/250.png)
 
 
 
@@ -6572,7 +6572,7 @@ public class CheckUtils {
 - 误判问题，但是概率小可以接受，不能从布隆过滤器删除
 - 全部合法的key都需要放入Guava版布隆过滤器+ redis里面，不然数据就是返回null
 
-![251](images\251.png)
+![251](images/251.png)
 
 
 
@@ -6925,13 +6925,13 @@ public class GuavaBloomFilterService{
 
 **布隆过滤器说明**
 
-![252](images\252.png)
+![252](images/252.png)
 
 
 
 ##### 家庭作业思考：黑名单使用
 
-![253](images\253.png)
+![253](images/253.png)
 
 
 
@@ -6975,7 +6975,7 @@ public class GuavaBloomFilterService{
 
 - 互斥更新，采用双检加锁策略
 
-  ![254](images\254.png)
+  ![254](images/254.png)
 
 
 
@@ -6995,7 +6995,7 @@ public class GuavaBloomFilterService{
 
 
 
-![255](images\255.png)
+![255](images/255.png)
 
 
 
@@ -7003,7 +7003,7 @@ public class GuavaBloomFilterService{
 
 
 
-![256](images\256.png)
+![256](images/256.png)
 
 
 
@@ -7400,7 +7400,7 @@ public class JHSProductController
 
 **复习again**
 
-![257](images\257.png)
+![257](images/257.png)
 
 
 
@@ -7416,13 +7416,13 @@ public class JHSProductController
 
 **方法一：互斥更新，采用双检加锁策略**
 
-![258](images\258.png)
+![258](images/258.png)
 
 
 
 **方法二：差异失效时间**
 
-![259](images\259.png)
+![259](images/259.png)
 
 
 
@@ -7594,7 +7594,7 @@ public class JHSProductController
 
 - Redis除了拿来做缓存，你还见过基于Redis的什么用法?
 
-  ![260](images\260.png)
+  ![260](images/260.png)
 
 - Redis做分布式锁的时候有需要注意的问题?
 - 你们公司自己实现的分布式锁是否用的setnx命令实现?这个是最合适的吗?你如何考虑分布式锁的可重入问题?
@@ -7626,7 +7626,7 @@ public class JHSProductController
 
 
 
-![261](images\261.png)
+![261](images/261.png)
 
 
 
@@ -7640,14 +7640,14 @@ public class JHSProductController
 
 - set命令回顾
 
-![262](images\262.png)
+![262](images/262.png)
 
 
 
 - setnx key value
 - set key value [EX seconds] [PX milliseconds] [NX|XX]
 
-![263](images\263.png)
+![263](images/263.png)
 
 
 
@@ -7958,7 +7958,7 @@ http://localhost:7777/swagger-ui.html#
 - 将**Base案例（SpringBoot+redis）单体应用商品库存**的内容进行复制，得到两个处理业务的**模块**
 - 端口改为8888
 
-![264](images\264.png)
+![264](images/264.png)
 
 
 
@@ -7972,7 +7972,7 @@ http://localhost:7777/swagger-ui.html#
 
 V2.0版本代码分布式部署后，单机锁还是出现超卖现象,需要分布式锁
 
-![265](images\265.png)
+![265](images/265.png)
 
 
 
@@ -8035,7 +8035,7 @@ nginx安装见**学nginx的笔记**
 http://192.168.188.129/inventory/sale
 ```
 
-![266](images\266.png)
+![266](images/266.png)
 
 
 
@@ -8045,7 +8045,7 @@ http://192.168.188.129/inventory/sale
 
 **出现重复卖出问题**
 
-![267](images\267.png)
+![267](images/267.png)
 
 
 
@@ -8055,7 +8055,7 @@ http://192.168.188.129/inventory/sale
 
 **为什么加了synchronized或者Lock还是没有控制住?**
 
-![268](images\268.png)
+![268](images/268.png)
 
 
 
@@ -8077,7 +8077,7 @@ http://192.168.188.129/inventory/sale
 
 **上redis分布式锁setnx**
 
-![269](images\269.png)
+![269](images/269.png)
 
 
 
@@ -8319,7 +8319,7 @@ redis分布式锁就是使用setnx命令，设置一个key,redis中有这个key�
 
 - 实际业务处理时间如果超过了默认设置key的过期时间?
 
-- 张冠李戴，删除了别人的锁![270](images\270.png)
+- 张冠李戴，删除了别人的锁![270](images/270.png)
 
 
 
@@ -8394,7 +8394,7 @@ redis分布式锁就是使用setnx命令，设置一个key,redis中有这个key�
 
 **lua脚本**
 
-![271](images\271.png)
+![271](images/271.png)
 
 
 
@@ -8421,19 +8421,19 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 **hello lua**
 
-![272](images\272.png)
+![272](images/272.png)
 
 
 
 **set k1 v1 get k1**
 
-![273](images\273.png)
+![273](images/273.png)
 
 
 
 **mset**
 
-![274](images\274.png)
+![274](images/274.png)
 
 
 
@@ -8441,7 +8441,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 
 
-![275](images\275.png)
+![275](images/275.png)
 
 
 
@@ -8449,7 +8449,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 
 
-![276](images\276.png)
+![276](images/276.png)
 
 
 
@@ -8457,7 +8457,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 
 
-![277](images\277.png)
+![277](images/277.png)
 
 
 
@@ -8524,7 +8524,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 
 
-![278](images\278.png)
+![278](images/278.png)
 
 
 
@@ -8552,7 +8552,7 @@ while判断并自旋重试获取锁+ setnx含自然过期时间+ Lua脚本官网
 
 **复习写好一个锁的条件和规约**
 
-![279](images\279.png)
+![279](images/279.png)
 
 
 
@@ -8562,13 +8562,13 @@ while判断并自旋重试获取锁+ setnx含自然过期时间+ Lua脚本官网
 
 **说明**
 
-![280](images\280.png)
+![280](images/280.png)
 
 
 
 **”可重入锁“这四个字分开解释**
 
-![281](images\281.png)
+![281](images/281.png)
 
 
 
@@ -8582,7 +8582,7 @@ while判断并自旋重试获取锁+ setnx含自然过期时间+ Lua脚本官网
 
 **隐式锁(即synchronized关键字使用的锁)默认是可重入锁**
 
-![282](images\282.png)
+![282](images/282.png)
 
 - 同步块
 
@@ -8657,7 +8657,7 @@ while判断并自旋重试获取锁+ setnx含自然过期时间+ Lua脚本官网
 
 **Synchronized的重入的实现机理**
 
-![283](images\283.png)
+![283](images/283.png)
 
 
 
@@ -8729,19 +8729,19 @@ public class ReEntryLockDemo
 
 **Map<String, Map<object,object>> ： K K V**
 
-![284](images\284.png)
+![284](images/284.png)
 
 
 
 **案例命令**
 
-![285](images\285.png)
+![285](images/285.png)
 
 
 
 **小总结**
 
-![286](images\286.png)
+![286](images/286.png)
 
 
 
@@ -8749,7 +8749,7 @@ public class ReEntryLockDemo
 
 
 
-![287](images\287.png)
+![287](images/287.png)
 
 
 
@@ -8761,7 +8761,7 @@ public class ReEntryLockDemo
 
 
 
-![288](images\288.png)
+![288](images/288.png)
 
 
 
@@ -8771,7 +8771,7 @@ public class ReEntryLockDemo
 
 **加锁的逻辑：其实就是key的设置**
 
-![289](images\289.png)
+![289](images/289.png)
 
 
 
@@ -8779,21 +8779,21 @@ public class ReEntryLockDemo
 
 - V1
 
-![290](images\290.png)
+![290](images/290.png)
 
 - V2
 
-![291](images\291.png)
+![291](images/291.png)
 
 - V3
 
-![292](images\292.png)
+![292](images/292.png)
 
 
 
 **测试**
 
-![293](images\293.png)
+![293](images/293.png)
 
 ```
 EVAL "if redis.call('exists',KEYS[1]) == 0 or redis.call('hexists',KEYS[1],ARGV[1]) == 1 then redis.call('hincrby',KEYS[1],ARGV[1],1) redis.call('expire',KEYS[1],ARGV[2]) return 1 else return 0 end" 1 zzyyRedisLock 0c90d37cb6ec42268861b3d739f8b3a8:1 30
@@ -8811,7 +8811,7 @@ HGET zzyyRedisLock 0c90d37cb6ec42268861b3d739f8b3a8:1
 
 **设计思路**
 
-![294](images\294.png)
+![294](images/294.png)
 
 
 
@@ -8819,11 +8819,11 @@ HGET zzyyRedisLock 0c90d37cb6ec42268861b3d739f8b3a8:1
 
 - v1：未用变量填充
 
-![295](images\295.png)
+![295](images/295.png)
 
 - v2：使用变量填充
 
-![296](images\296.png)
+![296](images/296.png)
 
 ```
 eval "if redis.call('HEXISTS',KEYS[1],ARGV[1]) == 0 then return nil elseif redis.call('HINCRBY',KEYS[1],ARGV[1],-1) == 0 then return redis.call('del',KEYS[1]) else return 0 end" 1 zzyyRedisLock 2f586ae740a94736894ab9d51880ed9d:1
@@ -8833,7 +8833,7 @@ eval "if redis.call('HEXISTS',KEYS[1],ARGV[1]) == 0 then return nil elseif redis
 
 **测试全套流程**
 
-![297](images\297.png)
+![297](images/297.png)
 
 
 
@@ -8901,11 +8901,11 @@ public class RedisDistributedLock implements Lock
 
 - 加锁lock
 
-  ![298](images\298.png)
+  ![298](images/298.png)
 
 - 解锁unlock
 
-  ![299](images\299.png)
+  ![299](images/299.png)
 
 
 
@@ -9022,7 +9022,7 @@ public class RedisDistributedLock implements Lock
 
 - InventoryService直接使用上面的代码设计，有什么问题
 
-![300](images\300.png)
+![300](images/300.png)
 
 - 引入工厂模式改造7.1版code
 
@@ -9317,7 +9317,7 @@ http://localhost:7777/inventory/sale
 
 - 结果
 
-![301](images\301.png)
+![301](images/301.png)
 
 - 错误原因：RedisDistributedLock每次创建的uuid不一致导致
   - 每通过工厂创建一个RedisDistributedLock实例，uuid都会改变
@@ -9580,23 +9580,23 @@ redisLock过期时间大于业务执行时间的问题，redis分布式锁如何
 
 - CP
 
-![302](images\302.png)
+![302](images/302.png)
 
 - 故障
 
-![303](images\303.png)
+![303](images/303.png)
 
 
 
 **Eureka集群是AP**
 
-![304](images\304.png)
+![304](images/304.png)
 
 
 
 **Nacos集群是AP**
 
-![305](images\305.png)
+![305](images/305.png)
 
 
 
@@ -9814,7 +9814,7 @@ public class InventoryService
 
 
 
-![306](images\306.png)
+![306](images/306.png)
 
 
 
@@ -10257,15 +10257,15 @@ public class InventoryService {
 
 
 
-![307](images\307.png)
+![307](images/307.png)
 
 - lock()加锁关键逻辑
 
-![308](images\308.png)
+![308](images/308.png)
 
 - unlock()解锁关键逻辑
 
-![309](images\309.png)
+![309](images/309.png)
 
 
 
@@ -10285,7 +10285,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 - **主页说明**
 
-![310](images\310.png)
+![310](images/310.png)
 
 
 
@@ -10299,15 +10299,15 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
   - 官网原文
 
-    ![311](images\311.png)
+    ![311](images/311.png)
 
   - 官网翻译
 
-    ![312](images\312.png)
+    ![312](images/312.png)
 
   - 说人话
 
-    ![313](images\313.png)
+    ![313](images/313.png)
 
 
 
@@ -10319,7 +10319,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 
 
-![314](images\314.png)
+![314](images/314.png)
 
 
 
@@ -10327,7 +10327,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 
 
-![315](images\315.png)
+![315](images/315.png)
 
 
 
@@ -10335,7 +10335,7 @@ https://redis.io/docs/manual/patterns/distributed-locks/
 
 
 
-![316](images\316.png)
+![316](images/316.png)
 
 
 
@@ -10506,7 +10506,7 @@ public class InventoryService2
 
 - 极少的概率会出现，但是会出现
 
-![317](images\317.png)
+![317](images/317.png)
 
 
 
@@ -10585,7 +10585,7 @@ public class InventoryService
 - Redis分布式锁过期了，但是业务逻辑还没处理完怎么办？
 - 还记得之前说过的缓存续命吗？
 
-![318](images\318.png)
+![318](images/318.png)
 
 
 
@@ -10595,7 +10595,7 @@ public class InventoryService
 
 - 在获取锁成功后，给锁加一个watchdog, watchdog会起一个定时任务，在锁没有被释放且快要过期的时候会续期
 
-![319](images\319.png)
+![319](images/319.png)
 
 
 
@@ -10609,11 +10609,11 @@ public class InventoryService
 
 - 源码解析如下
 
-![320](images\320.png)
+![320](images/320.png)
 
-![321](images\321.png)
+![321](images/321.png)
 
-![322](images\322.png)
+![322](images/322.png)
 
 
 
@@ -10621,7 +10621,7 @@ public class InventoryService
 
 
 
-![323](images\323.png)
+![323](images/323.png)
 
 
 
@@ -10631,18 +10631,18 @@ public class InventoryService
 
 - 3.13.4版本的redisson
 
-![324](images\324.png)
+![324](images/324.png)
 
 - 流程解释
 
-![325](images\325.png)
+![325](images/325.png)
 
 
 
 - 3.27.1版本的redisson
   - 其实就是将**无锁**和**是自己的锁**的情况合在一个if里面
 
-![326](images\326.png)
+![326](images/326.png)
 
 
 
@@ -10654,11 +10654,11 @@ public class InventoryService
 - 在 Redisson 中，internalLockLeaseTime 是 30s，也就是每隔 10s 续期一次，每次 30s。
 - 客户端A加锁成功，就会启动一个watch dog看门狗，他是一个后台线程，会每隔10秒检查一下，如果客户端A还持有锁key，那么就会不断的延长锁key的生存时间，默认每次续命又从30秒新开始
 
-![327](images\327.png)
+![327](images/327.png)
 
 - 自动续期lua脚本分析
 
-![328](images\328.png)
+![328](images/328.png)
 
 
 
@@ -10668,7 +10668,7 @@ public class InventoryService
 
 
 
-![329](images\329.png)
+![329](images/329.png)
 
 
 
@@ -10684,15 +10684,15 @@ public class InventoryService
 
 - 官网
 
-![330](images\330.png)
+![330](images/330.png)
 
 - 官网翻译
 
-![331](images\331.png)
+![331](images/331.png)
 
 - 小总结
 
-![332](images\332.png)
+![332](images/332.png)
 
 
 
@@ -10708,7 +10708,7 @@ https://github.com/redisson/redisson/wiki/8.-%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%8
 
 - 使用MultiLock
 
-![333](images\333.png)
+![333](images/333.png)
 
 
 
@@ -10726,7 +10726,7 @@ docker run -p 6382:6379 --name redis-master-2 -d redis
 docker run -p 6383:6379 --name redis-master-3 -d redis
 ```
 
-![334](images\334.png)
+![334](images/334.png)
 
 
 
@@ -10740,7 +10740,7 @@ docker exec -it redis-master-2 /bin/bash   或者 docker exec -it redis-master-2
 docker exec -it redis-master-3 /bin/bash   或者 docker exec -it redis-master-3 redis-cli
 ```
 
-![335](images\335.png)
+![335](images/335.png)
 
 
 
@@ -11100,7 +11100,7 @@ http://localhost:9090/multilock
 
 **测试命令**
 
-![336](images\336.png)
+![336](images/336.png)
 
 
 
@@ -11181,7 +11181,7 @@ maxmemory <bytes>
 
 **通过命令修改**
 
-![337](images\337.png)
+![337](images/337.png)
 
 
 
@@ -11205,7 +11205,7 @@ config get
 
 - OOM
 
-![338](images\338.png)
+![338](images/338.png)
 
 
 
@@ -11226,7 +11226,7 @@ config get
 
 
 
-![339](images\339.png)
+![339](images/339.png)
 
 
 
@@ -11242,7 +11242,7 @@ config get
 
 - 总结:对CPU不友好，用处理器性能换取存储空间(拿时间换空间)
 
-![340](images\340.png)
+![340](images/340.png)
 
 
 
@@ -11253,7 +11253,7 @@ config get
 - 总结:对memory不友好，用存储空间换取处理器性能(拿空间换时间)
 - 开启惰性淘汰，lazyfree-lazy-eviction=yes
 
-![341](images\341.png)
+![341](images/341.png)
 
 
 
@@ -11263,7 +11263,7 @@ config get
 
 - 定期抽样key，判断是否过期
 
-![342](images\342.png)
+![342](images/342.png)
 
 
 
@@ -11279,7 +11279,7 @@ config get
 
 
 
-![343](images\343.png)
+![343](images/343.png)
 
 - redis缓存淘汰策略登场
 
@@ -11293,7 +11293,7 @@ config get
 
 
 
-![344](images\344.png)
+![344](images/344.png)
 
 
 
@@ -11301,7 +11301,7 @@ config get
 
 
 
-![345](images\345.png)
+![345](images/345.png)
 
 
 
@@ -11309,7 +11309,7 @@ config get
 
 
 
-![346](images\346.png)
+![346](images/346.png)
 
 
 
@@ -11317,7 +11317,7 @@ config get
 
 
 
-![347](images\347.png)
+![347](images/347.png)
 
 
 
@@ -11325,7 +11325,7 @@ config get
 
 
 
-![348](images\348.png)
+![348](images/348.png)
 
 
 
@@ -11377,19 +11377,19 @@ config get
 
 
 
-![349](images\349.png)
+![349](images/349.png)
 
 
 
 **Redis数据类型的底层数据结构**
 
-![350](images\350.png)
+![350](images/350.png)
 
 
 
 **阅读源码的意义**
 
-![351](images\351.png)
+![351](images/351.png)
 
 
 
@@ -11411,7 +11411,7 @@ https://github.com/redis/redis/releases
 \redis-7.0.5\src
 ```
 
-![352](images\352.png)
+![352](images/352.png)
 
 
 
@@ -11419,7 +11419,7 @@ https://github.com/redis/redis/releases
 
 
 
-![353](images\353.png)
+![353](images/353.png)
 
 
 
@@ -11431,9 +11431,9 @@ https://github.com/redis/redis/releases
 
 
 
-![354](images\354.png)
+![354](images/354.png)
 
-![355](images\355.png)
+![355](images/355.png)
 
 
 
@@ -11441,7 +11441,7 @@ https://github.com/redis/redis/releases
 
 
 
-![356](images\356.png)
+![356](images/356.png)
 
 
 
@@ -11449,7 +11449,7 @@ https://github.com/redis/redis/releases
 
 
 
-![357](images\357.png)
+![357](images/357.png)
 
 
 
@@ -11459,7 +11459,7 @@ https://github.com/redis/redis/releases
 
 **c语言struct结构体语言简介**
 
-![358](images\358.png)
+![358](images/358.png)
 
 
 
@@ -11472,19 +11472,19 @@ https://github.com/redis/redis/releases
 - 每个键值对都会有一个dictEntry
 - 重点：从dictEntry到RedisObject
 
-![359](images\359.png)
+![359](images/359.png)
 
 
 
 **这些键值对是如何保存进Redis并进行读取操作，O（1）复杂度**
 
-![360](images\360.png)
+![360](images/360.png)
 
 
 
 **redisObject + Redis数据类型+ Redis所有编码方式(底层实现)三者之间的关系**
 
-![361](images\361.png)
+![361](images/361.png)
 
 
 
@@ -11515,7 +11515,7 @@ https://github.com/redis/redis/releases
 
 
 
-![362](images\362.png)
+![362](images/362.png)
 
 
 
@@ -11523,7 +11523,7 @@ https://github.com/redis/redis/releases
 
 
 
-![363](images\363.png)
+![363](images/363.png)
 
 
 
@@ -11533,19 +11533,19 @@ https://github.com/redis/redis/releases
 
 **程序员写代码时脑子底层思维**
 
-![364](images\364.png)
+![364](images/364.png)
 
 
 
 **上帝视角最右边编码如何来的**
 
-![365](images\365.png)
+![365](images/365.png)
 
 
 
 **redisObject操作底层定义来自哪里?** 
 
-![366](images\366.png)
+![366](images/366.png)
 
 
 
@@ -11555,7 +11555,7 @@ https://github.com/redis/redis/releases
 
 **每个键值对都会有一个dictEntry**
 
-![367](images\367.png)
+![367](images/367.png)
 
 
 
@@ -11579,7 +11579,7 @@ object encoding hello
 
 
 
-![368](images\367.png)
+![368](images/367.png)
 
 
 
@@ -11587,7 +11587,7 @@ object encoding hello
 
 
 
-![368](images\368.png)
+![368](images/368.png)
 
 
 
@@ -11595,7 +11595,7 @@ object encoding hello
 
 
 
-![369](images\369.png)
+![369](images/369.png)
 
 
 
@@ -11607,7 +11607,7 @@ object encoding hello
 
 
 
-![370](images\370.png)
+![370](images/370.png)
 
 
 
@@ -11617,25 +11617,25 @@ object encoding hello
 
 **再看一次set age 17**
 
-![369](images\369.png)
+![369](images/369.png)
 
 
 
 **命令**
 
-![371](images\371.png)
+![371](images/371.png)
 
 
 
 **开启前**
 
-![372](images\372.png)
+![372](images/372.png)
 
 
 
 **开启后**
 
-![373](images\373.png)
+![373](images/373.png)
 
 
 
@@ -11649,13 +11649,13 @@ object encoding hello
 
 **RedisObject内部对应3大物理编码**
 
-![374](images\374.png)
+![374](images/374.png)
 
 
 
 **int、embstr、raw介绍**
 
-![375](images\375.png)
+![375](images/375.png)
 
 
 
@@ -11667,7 +11667,7 @@ object encoding hello
 
 
 
-![376](images\376.png)
+![376](images/376.png)
 
 
 
@@ -11675,7 +11675,7 @@ object encoding hello
 
 
 
-![377](images\377.png)
+![377](images/377.png)
 
 
 
@@ -11687,9 +11687,9 @@ object encoding hello
 
 **sds.h源码分析、说明**
 
-![378](images\378.png)
+![378](images/378.png)
 
-![379](images\379.png)
+![379](images/379.png)
 
 
 
@@ -11697,7 +11697,7 @@ object encoding hello
 
 
 
-![380](images\380.png)
+![380](images/380.png)
 
 
 
@@ -11707,73 +11707,73 @@ object encoding hello
 
 **用户API：set k1 v1底层发生了什么?调用关系**
 
-![381](images\381.png)
+![381](images/381.png)
 
 
 
 **3大物理编码方式**
 
-![382](images\382.png)
+![382](images/382.png)
 
 
 
 **INT编码格式**
 
-![383](images\383.png)
+![383](images/383.png)
 
-![384](images\384.png)
+![384](images/384.png)
 
-![385](images\385.png)
+![385](images/385.png)
 
-![386](images\386.png)
+![386](images/386.png)
 
-![387](images\387.png)
+![387](images/387.png)
 
 
 
 **EMBSTR编码格式**
 
-![388](images\388.png)
+![388](images/388.png)
 
 - set k1 abc
 
-![389](images\389.png)
+![389](images/389.png)
 
-![390](images\390.png)
+![390](images/390.png)
 
 - 进一步createEmbeddedStringObject方法
 
 
-![391](images\391.png)
+![391](images/391.png)
 
 
 
 **RAW编码格式**
 
-![392](images\392.png)
+![392](images/392.png)
 
 - set k1大于44长度的一个字符串随便写
 
 
-![393](images\393.png)
+![393](images/393.png)
 
 
 
 **明明没有超过阈值，为什么变成raw了**
 
-![394](images\394.png)
+![394](images/394.png)
 
 
 
 ###### 转换逻辑图
 
-![395](images\395.png)
+![395](images/395.png)
 
 
 
 ###### 案例总结
 
-![396](images\396.png)
+![396](images/396.png)
 
 
 
@@ -11815,7 +11815,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![397](images\397.png)
+![397](images/397.png)
 
 
 
@@ -11843,7 +11843,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![398](images\398.png)
+![398](images/398.png)
 
 
 
@@ -11859,21 +11859,21 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - OBJ_ ENCODING_ HT编码分析
 
-![399](images\399.png)
+![399](images/399.png)
 
-![400](images\400.png)
+![400](images/400.png)
 
-![401](images\401.png)
+![401](images/401.png)
 
 
 
 - hset命令解读
 
-![402](images\402.png)
+![402](images/402.png)
 
 - 类型
 
-![403](images\403.png)
+![403](images/403.png)
 
 
 
@@ -11881,17 +11881,17 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![406](images\406.png)
+![406](images/406.png)
 
 
 
 **ziplist什么样**
 
-![404](images\404.png)
+![404](images/404.png)
 
 **ziplist各个组成单元什么意思**
 
-![405](images\405.png)
+![405](images/405.png)
 
 
 
@@ -11899,33 +11899,33 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - 官网源码
 
-![407](images\407.png)
+![407](images/407.png)
 
 
 
 **ziplist存取情况**
 
-![408](images\408.png)
+![408](images/408.png)
 
 - zlentry解析
 
-  ![409](images\409.png)
+  ![409](images/409.png)
 
 - 为什么zlentry这么设计？数组和链表数据结构对比
 
-  ![410](images\410.png)
+  ![410](images/410.png)
 
 
 
 **明明有链表了，为什么出来一个压缩链表？**
 
-![411](images\411.png)
+![411](images/411.png)
 
 
 
 **ziplist总结**
 
-![412](images\412.png)
+![412](images/412.png)
 
 
 
@@ -11937,9 +11937,9 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![413](images\413.png)
+![413](images/413.png)
 
-![414](images\414.png)
+![414](images/414.png)
 
 
 
@@ -11967,7 +11967,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - 同前面，只不过ziplist修改为listpack
 
-![415](images\415.png)
+![415](images/415.png)
 
 
 
@@ -11977,15 +11977,15 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **实现: object.c**
 
-![416](images\416.png)
+![416](images/416.png)
 
 **实现: listpack.c**
 
-![417](images\417.png)
+![417](images/417.png)
 
 **实现2: object.c**
 
-![418](images\418.png)
+![418](images/418.png)
 
 
 
@@ -11995,15 +11995,15 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **复习**
 
-![419](images\419.png)
+![419](images/419.png)
 
 
 
 **ziplist的连锁更新问题**
 
-![420](images\420.png)
+![420](images/420.png)
 
-![421](images\421.png)
+![421](images/421.png)
 
 
 
@@ -12025,7 +12025,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - End
 
-![422](images\422.png)
+![422](images/422.png)
 
 
 
@@ -12035,19 +12035,19 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 - 元素数据(entry-data)
 - 以及编码类型和元素数据这两部分的长度(entry-len)
 
-![423](images\423.png)
+![423](images/423.png)
 
 
 
 **listpackEntry结构定义：listpack.h**
 
-![424](images\424.png)
+![424](images/424.png)
 
 
 
 ###### 源码分析：ziplist内存布局  VS  listpack内存布局
 
-![425](images\425.png)
+![425](images/425.png)
 
 
 
@@ -12063,7 +12063,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![426](images\426.png)
+![426](images/426.png)
 
 
 
@@ -12074,7 +12074,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 - Redis6版本前的List的一种编码格式
 - list用quicklist来存储，quicklist存储了一个双向链表，每个节点都是一个ziplist
 
-![427](images\427.png)
+![427](images/427.png)
 
 
 
@@ -12086,17 +12086,17 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - quicklist结构
 
-![428](images\428.png)
+![428](images/428.png)
 
 - quicklistNode结构
 
-![429](images\429.png)
+![429](images/429.png)
 
 
 
 **quicklistNode中的*zl指向一个ziplist,一个ziplist可以存放多个元素**
 
-![430](images\430.png)
+![430](images/430.png)
 
 
 
@@ -12108,7 +12108,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![431](images\431.png)
+![431](images/431.png)
 
 
 
@@ -12118,19 +12118,19 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **redis7：t_list.c**
 
-![432](images\432.png)
+![432](images/432.png)
 
 
 
 **redis6：t_list.c**
 
-![433](images\433.png)
+![433](images/433.png)
 
 
 
 **实现：object.c**
 
-![434](images\434.png)
+![434](images/434.png)
 
 
 
@@ -12138,7 +12138,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![435](images\435.png)
+![435](images/435.png)
 
 
 
@@ -12164,7 +12164,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
   - <Long.MAX_VALUE 并且 元素个数<set-max-inset-entries,用intset
   - 否则用hashtable
 
-![436](images\436.png)
+![436](images/436.png)
 
 
 
@@ -12174,7 +12174,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **t_set.c**
 
-![437](images\437.png)
+![437](images/437.png)
 
 
 
@@ -12186,7 +12186,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![438](images\438.png)
+![438](images/438.png)
 
 
 
@@ -12196,12 +12196,12 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **redis6**
 
-![439](images\439.png)
+![439](images/439.png)
 
 
 
 **redis7**
-![440](images\440.png)
+![440](images/440.png)
 
 
 
@@ -12211,7 +12211,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **t_zset.c**
 
-![441](images\441.png)
+![441](images/441.png)
 
 
 
@@ -12221,7 +12221,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **t_zset.c**
 
-![442](images\442.png)
+![442](images/442.png)
 
 
 
@@ -12233,7 +12233,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![443](images\443.png)
+![443](images/443.png)
 
 
 
@@ -12241,7 +12241,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![444](images\444.png)
+![444](images/444.png)
 
 
 
@@ -12249,7 +12249,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![445](images\445.png)
+![445](images/445.png)
 
 
 
@@ -12257,7 +12257,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![446](images\446.png)
+![446](images/446.png)
 
 
 
@@ -12265,7 +12265,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![447](images\447.png)
+![447](images/447.png)
 
 
 
@@ -12279,19 +12279,19 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **先从一个单链表来讲**
 
-![448](images\448.png)
+![448](images/448.png)
 
 
 
 **痛点**
 
-![449](images\449.png)
+![449](images/449.png)
 
 
 
 **优化**
 
-![450](images\450.png)
+![450](images/450.png)
 
 
 
@@ -12299,7 +12299,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - 画了一个包含64个结点的链表，按照前面讲的这种思路，建立了五级索引
 
-![451](images\451.png)
+![451](images/451.png)
 
 
 
@@ -12310,7 +12310,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 - 跳表是可以实现二分查找的有序链表
 - 跳表 = 链表 + 多级索引
 
-![452](images\452.png)
+![452](images/452.png)
 
 
 
@@ -12320,7 +12320,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - 时间复杂度O(log n)
 
-![453](images\453.png)
+![453](images/453.png)
 
 
 
@@ -12330,7 +12330,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 - 空间复杂度O(n)
 
-![454](images\454.png)
+![454](images/454.png)
 
 
 
@@ -12338,7 +12338,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![455](images\455.png)
+![455](images/455.png)
 
 
 
@@ -12354,7 +12354,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![456](images\456.png)
+![456](images/456.png)
 
 
 
@@ -12362,7 +12362,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![457](images\457.png)
+![457](images/457.png)
 
 
 
@@ -12370,7 +12370,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![458](images\458.png)
+![458](images/458.png)
 
 
 
@@ -12378,7 +12378,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![459](images\459.png)
+![459](images/459.png)
 
 
 
@@ -12386,13 +12386,13 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![460](images\460.png)
+![460](images/460.png)
 
 
 
 **结论**
 
-![461](images\461.png)
+![461](images/461.png)
 
 
 
@@ -12402,9 +12402,9 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 **从吃米线开始，读读read**
 
-![462](images\462.png)
+![462](images/462.png)
 
-![463](images\463.png)
+![463](images/463.png)
 
 
 
@@ -12412,7 +12412,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![465](images\465.png)
+![465](images/465.png)
 
 
 
@@ -12432,7 +12432,7 @@ Redis内部会根据用户给的不同键值而使用不同的编码格式，自
 
 
 
-![464](images\464.png)
+![464](images/464.png)
 
 
 
@@ -12629,7 +12629,7 @@ public class RedisClient02
 
 **存在的问题**
 
-![466](images\466.png)
+![466](images/466.png)
 
 
 
@@ -12637,7 +12637,7 @@ public class RedisClient02
 
 
 
-![467](images\467.png)
+![467](images/467.png)
 
 
 
@@ -12750,13 +12750,13 @@ public class RedisClient02
 
 **存在的问题**
 
-![468](images\468.png)
+![468](images/468.png)
 
 
 
 **如何解决**
 
-![469](images\469.png)
+![469](images/469.png)
 
 
 
@@ -12772,11 +12772,11 @@ public class RedisClient02
 
 
 
-![470](images\470.png)
+![470](images/470.png)
 
 - 阻塞式IO小总结
 
-![471](images\471.png)
+![471](images/471.png)
 
 
 
@@ -12788,7 +12788,7 @@ public class RedisClient02
 
 
 
-![472](images\472.png)
+![472](images/472.png)
 
 
 
@@ -12915,7 +12915,7 @@ public class RedisClient02
 
 
 
-![473](images\473.png)
+![473](images/473.png)
 
 
 
@@ -12925,7 +12925,7 @@ public class RedisClient02
 
 **非阻塞IO小总结**
 
-![474](images\474.png)
+![474](images/474.png)
 
 
 
@@ -12941,7 +12941,7 @@ public class RedisClient02
 
 
 
-![475](images\475.png)
+![475](images/475.png)
 
 
 
@@ -12949,7 +12949,7 @@ public class RedisClient02
 
 
 
-![476](images\476.png)
+![476](images/476.png)
 
 
 
@@ -12957,7 +12957,7 @@ public class RedisClient02
 
 
 
-![477](images\477.png)
+![477](images/477.png)
 
 
 
@@ -12965,7 +12965,7 @@ public class RedisClient02
 
 
 
-![478](images\478.png)
+![478](images/478.png)
 
 
 
@@ -12973,7 +12973,7 @@ public class RedisClient02
 
 
 
-![479](images\479.png)
+![479](images/479.png)
 
 
 
@@ -12985,7 +12985,7 @@ public class RedisClient02
 
 
 
-![480](images\480.png)
+![480](images/480.png)
 
 
 
@@ -12995,13 +12995,13 @@ public class RedisClient02
 
 **是什么**
 
-![481](images\481.png)
+![481](images/481.png)
 
 
 
 **每一个网络连接其实都对应一个文件接述符**
 
-![482](images\482.png)
+![482](images/482.png)
 
 
 
@@ -13017,7 +13017,7 @@ public class RedisClient02
 
 
 
-![483](images\483.png)
+![483](images/483.png)
 
 
 
@@ -13025,7 +13025,7 @@ public class RedisClient02
 
 
 
-![484](images\484.png)
+![484](images/484.png)
 
 
 
@@ -13033,9 +13033,9 @@ public class RedisClient02
 
 
 
-![485](images\485.png)
+![485](images/485.png)
 
-![486](images\486.png)
+![486](images/486.png)
 
 
 
@@ -13043,7 +13043,7 @@ public class RedisClient02
 
 
 
-![487](images\487.png)
+![487](images/487.png)
 
 
 
@@ -13051,7 +13051,7 @@ public class RedisClient02
 
 
 
-![488](images\488.png)
+![488](images/488.png)
 
 
 
@@ -13071,7 +13071,7 @@ public class RedisClient02
 
 
 
-![489](images\489.png)
+![489](images/489.png)
 
 
 
@@ -13079,7 +13079,7 @@ public class RedisClient02
 
 
 
-![490](D:\MarkDown_File\redis7_尚硅谷_阳哥\images\490.png)
+![490](images/490.png)
 
 
 
@@ -13087,7 +13087,7 @@ public class RedisClient02
 
 
 
-![491](images\491.png)
+![491](images/491.png)
 
 
 
@@ -13095,7 +13095,7 @@ public class RedisClient02
 
 
 
-![492](images\492.png)
+![492](images/492.png)
 
 
 
@@ -13107,7 +13107,7 @@ public class RedisClient02
 
 
 
-![493](images\493.png)
+![493](images/493.png)
 
 
 
@@ -13115,7 +13115,7 @@ public class RedisClient02
 
 
 
-![494](images\494.png)
+![494](images/494.png)
 
 
 
@@ -13123,7 +13123,7 @@ public class RedisClient02
 
 
 
-![495](images\495.png)
+![495](images/495.png)
 
 
 
@@ -13131,7 +13131,7 @@ public class RedisClient02
 
 
 
-![496](images\496.png)
+![496](images/496.png)
 
 
 
@@ -13139,7 +13139,7 @@ public class RedisClient02
 
 
 
-![497](images\497.png)
+![497](images/497.png)
 
 
 
@@ -13147,7 +13147,7 @@ public class RedisClient02
 
 
 
-![498](images\498.png)
+![498](images/498.png)
 
 
 
